@@ -159,7 +159,7 @@ int main()
 
 
 
-//pre increment operator
+// increment operators [ post and pre]
 /*
 class complex
 {
@@ -175,26 +175,33 @@ class complex
 	{
 	cout<<a<<" +i"<<b;
 	}
-	void operator++ ()
+	void operator++ ()// pre increment
 	{
 	a=a+1;
 	++b;
+	}
+	void operatot++(int)// post increment
+	{
+	a++;
+	b++;
 	}
 };
 int main()
 {
  complex c;
  complex c1(4,5);
+ complex c2(2,3);
  ++c;
  ++c1;
+ c2++;
  c.put();
  cout<<endl;
  c1.put();
+ cout<<endl;
+ c2.put();
  return 0;
 }
 */
-
-
 
 
 //return oject
