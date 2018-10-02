@@ -3,6 +3,12 @@
 // int *p=new int;
 //int *p=new int[10];//means array
 //int *p=new int(10);//means value not array
+//for 1D array
+//int *a=new int[10];
+//for 2D array
+//int** a = new int*[rowCount];
+//for(int i = 0; i < rowCount; ++i)
+//  a[i] = new int[colCount];
 //delete p
 //delete [] p//deacllocating memory
 using namespace std;
