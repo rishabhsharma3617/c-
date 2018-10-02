@@ -132,10 +132,10 @@ int main()
 	float radius;
 	int value;
 	cin>>value;
-	r=value;
+	r=value;//base to class type
 	r.calculate();
-	c=r;
-	radius=c;
+	c=r;//class to class type
+	radius=c;//class to base type
 	cout<<radius;
 	return 0;
 }
