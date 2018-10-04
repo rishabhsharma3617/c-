@@ -30,11 +30,11 @@ void funn(A a1,B b1)
 }
 int main()
 {
-	class A a1;
-	class B b1;
+	class A A1;
+	class B B1;
 	a1.initialise(10);
 	b1.initialise(20);
-	funn(a1,b1);
+	funn(A1,B1);
 	return 0;
 }
 
