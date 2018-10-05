@@ -30,7 +30,7 @@ void swap(int *a,int *b)
 	*b=temp;
 	cout<<*a<<*b;
 }
-int main()
+int main()   //main function starts here
 {
 	int a,b;
 	cin>>a>>b;
