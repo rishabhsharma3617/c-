@@ -31,3 +31,4 @@ int main()
 	cout<<c1;
 	return 0;
 }
+  //it can be done by friend void also
