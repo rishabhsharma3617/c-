@@ -1,7 +1,22 @@
 //friendclass by rishav
 #include<iostream>
 using namespace std;
-class integer;
+class complex;
+class integer
+{
+    int n;
+public:
+    integer()
+    {
+        cout << "Enter the Integer number:" << endl;
+        cin >> n;
+    }
+    void display()
+    {
+        cout << n;
+    }
+    friend class Complex;
+};
 class Complex
 {
     int a,i;
@@ -20,21 +35,6 @@ public:
     a = a + y.n;
     i = i + y.n;
     }
-};
-class integer
-{
-    int n;
-public:
-    integer()
-    {
-        cout << "Enter the Integer number:" << endl;
-        cin >> n;
-    }
-    void display()
-    {
-        cout << n;
-    }
-    friend class Complex;
 };
 int main()
 {
