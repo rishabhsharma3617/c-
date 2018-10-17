@@ -56,3 +56,4 @@ int main()
 	c.amainer::dis();
 	return 0;
 }
+//code  ends here
