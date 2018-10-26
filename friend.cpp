@@ -2,7 +2,7 @@
 using namespace std;
 class B;
 class A
-{
+{  //this is comm
 	int a;
 	public:
 	friend void funn(A a1,B b1);
