@@ -14,9 +14,9 @@ class string1
 		name= new char;
 		}
 		string1(char *s)
-		{
+		{   //
 		len=strlen(s);
-		name=new char[len+1];
+		name=new char[len+1] //this is comm
 		strcpy(name,s);
 		}
 		void join(string1 &a,string1 &b)
