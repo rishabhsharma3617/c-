@@ -14,6 +14,7 @@ public:
 	cout<<a;
 	}
 };
+//this is a comment
 int amainer::a;
 int main()
 {
