@@ -5,17 +5,15 @@ class complex
 {
 	int r,i;
 	public:
-	friend istream& operator>>(istream &in, complex &ob)
+	friend void operator>>(istream &in, complex &ob)
 	{
 	in>>ob.r;
-	in>>ob.i;
-	return in;	
+	in>>ob.i;	
 	}
-	friend ostream& operator<<(ostream &out, complex &ob)
+	friend void operator<<(ostream &out, complex &ob)
 	{
 	out<<ob.r<<endl;
-	out<<ob.i;
-	return out;	
+	out<<ob.i;	
 	}
 };
 int main()
@@ -24,3 +22,4 @@ int main()
 	cin>>c;
 	cout<<c;
 }
+ //check this code
