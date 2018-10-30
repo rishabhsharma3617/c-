@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 class complex
-{
+{   //tgis is a comment
 	int r,i;
 	public:
 	friend istream& operator>>(istream &in, complex &ob)
