@@ -3,6 +3,8 @@
 using namespace std;
 class complex
 {
+	
+	//this is a comment
 	int r,i;
 	public:
 	friend istream& operator>>(istream &in, complex &ob)
